@@ -1,4 +1,4 @@
-const Container = (props) => (
+function Container(props){
     <div
       style={{
         width: "1200px",
@@ -8,6 +8,6 @@ const Container = (props) => (
     >
       {props.children}
     </div>
-  );
+};
   
 export default Container;
